@@ -259,7 +259,7 @@ dd {
 
 .footerFooter {
     font-size: .8125rem;
-    padding-top: 2rem;
+    padding-top: 1.2rem;
     padding-bottom: .75rem;
     text-align: center;
 }
@@ -1878,6 +1878,7 @@ span.math:has(> mjx-container[display]) {
     font-size: .8rem;
     font-weight: 500;
     vertical-align: middle;
+    margin-right: 10px;
 }
 
 .badge > * {
@@ -1889,18 +1890,19 @@ span.math:has(> mjx-container[display]) {
 }
 
 .badge > .badge-title {
-    background-color: rgba( 16, 16, 16, 1 );
+    background-color: rgba( 50, 50, 50, 1 );
     border-inline-end: 0;
     border-start-end-radius: 0;
     border-end-end-radius: 0;
     color: rgba( 240, 240, 240, 1 );
-    filter: contrast(2);
     opacity: .75;
+    border-color: #f36caf;
 }
 
 .badge.badge-with-title > .badge-content {
     border-start-start-radius: 0;
     border-end-start-radius: 0;
+    border-color: #f36caf;
 }
 
 .badge-content:after {

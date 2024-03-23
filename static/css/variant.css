@@ -503,3 +503,7 @@ article ul > li > input[type="checkbox"] {
     border-inline-start-color: var(--INTERNAL-MENU-BORDER-color);
     border-inline-end-color: var(--INTERNAL-MENU-SECTION-ACTIVE-CATEGORY-BORDER-color);
 }
+
+.kofi-button {
+    margin-bottom: 25px;
+}
