@@ -1,9 +1,7 @@
 {{- if not .Page.Params.Hero }}
         </div>
-      </main><!-- #R-body-inner -->
-{{- else }}
-  </div><!-- #R-hero -->
 {{- end }}
+      </main><!-- #R-body-inner -->
 {{- partial "custom-comments.html" . }}
     </div><!-- #R-body -->
 {{- $outputFormat := partial "output-format.hugo" .Page }}
